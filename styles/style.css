@@ -1,0 +1,220 @@
+:root{
+    --logo-color:#000000;
+    --text-color-white: #fff;
+    --background-color-white: #FFFFFF;
+    --background-color-dark: #2F303A;
+    --backgraund-portfolio: 1px solid #EEEEEE;
+    --background-color-grey: #F5F4FA;
+    --active-color-blue : #2196F3;
+    --title-color: #212121;
+    --text-color-grey: #757575;
+    --button-active-back-color: #188CE8;
+    --rgba-color: rgba(255, 255, 255, 0.6);
+}
+
+.link {
+    text-decoration: none;}
+
+.list {
+    list-style: none;
+    font-style: normal;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color-white);
+    
+}
+
+.upper-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--logo-color);
+
+}
+
+.logo-blue {
+    color: var(--active-color-blue)
+}
+
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.mail-address,
+.contact-phone-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color-grey);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--active-color-blue);
+}
+
+.menu-link:current{
+    color: var(--active-color-blue);
+}
+
+.section-title {
+    background-color: var(--background-color-dark);
+}
+
+.headline {
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--background-color-white);
+}
+
+.modal-open-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--active-color-blue);
+    color: var(--background-color-white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.modal-open-btn:hover,
+.modal-open-btn:focus{
+    background-color:var(--button-active-back-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px
+   }
+
+   .preference {
+    font-size: 0;
+   }
+
+   .preference-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--title-color);
+   }
+
+   .preference-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--text-color-grey);
+   }
+
+   .headline {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+   }
+
+   .section-features {
+    background-color:var(--background-color-grey);
+   }
+
+   .name-employee {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+   }
+
+   .headline {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-color-grey);
+   }
+
+   .footer {
+    background-color: var(--background-color-dark);
+   }
+
+   .logo-down {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color:var(--text-color-white);
+   }
+
+   .address-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing;
+    color: var(--text-color-white);
+   }
+
+   .footer-email,
+   .footer-number {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--rgba-color);
+   }
+
+   .catalog {
+    background-color: var(--backgraund-portfolio);
+   }
+
+   .filter-dutton {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background:var(--background-color-grey);
+    border-radius: 4px;
+    color: var(--title-color);
+   }
+
+   .filter-dutton:hover,
+   .filter-dutton:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color-white);
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+   }
